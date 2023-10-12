@@ -29,7 +29,9 @@ A lo largo de este proyecto, hemos empleado diversas librerias de Python para re
 
 [tweepy](https://www.tweepy.com/): Utilizada para interactuar con la API de Twitter y obtener datos relevantes.
 
-  
+[TikTokApi](https://developers.tiktok.com/): Las API de contenido comercial permitirán al público y a los investigadores realizar búsquedas personalizadas basadas en nombres de anunciantes o palabras clave en anuncios y otros datos de contenido comercial almacenados en la biblioteca de contenido comercial.
+
+
 1- **Creación del repositorio remoto llamado G15 Practica Profesionalizante ISPC**
 
 2- **Armado de Trello por Equipo:**
@@ -44,10 +46,10 @@ El propósito del proyecto de Social Listening es implementar una estrategia de 
   <img src="https://i.ibb.co/tKt32RT/BRIEF-SUMMARY-GERENCIA-1.png">
 </p>
 
-4- **Analisis de factibilidad legal y factibilidad técnica:**
+4- **Analisis de factibilidad legal y factibilidad técnica en RRSS:**
 - **Facebook:** se consiguio un archivo con xx registros asociados a 
 - **Instagram:** no se valido a tiempo el uso de la api de toma de datos
-- **TikTok:** no se valido a tiempo el uso de la api de toma de datos. Se realizo parte del codigo que instancia la misma. 
+- **TikTok:** no se validó a tiempo el uso de la api de toma de datos.En espera de habilitación. Se realizó parte del código que instancia la misma. 
 - **Twitter:** Actualmente, estamos experimentando restricciones en las funcionalidades proporcionadas por la API gratuita de Twitter. Hemos tomado la decisión de desestimar el uso de la API debido a las limitaciones de funcionalidades en su versión gratuita
 - **DataSet Amazon:** Se utilizó un conjunto de datos de prueba de Amazon que contiene reseñas de productos relacionados con cocina y hogar, el cual consta de casi 7 millones de registros. Estos registros se etiquetaron con distintos sentimientos, incluyendo "pésimo," "negativo," "neutral," "positivo" y "excelente." Inicialmente, se intentó traducir las reseñas al español para facilitar el proceso de predicción. Sin embargo, se encontraron limitaciones técnicas que dificultaron esta tarea y estuvieron fuera de nuestro control para resolver en el tiempo requerido.
 
