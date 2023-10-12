@@ -47,6 +47,7 @@ El propósito del proyecto de Social Listening es implementar una estrategia de 
 </p>
 
 4- **Analisis de factibilidad legal y factibilidad técnica en RRSS:**
+
 - **Facebook:** se consiguio un archivo con xx registros asociados a 
 - **Instagram:** no se valido a tiempo el uso de la api de toma de datos
 - **TikTok:** no se validó a tiempo el uso de la api de toma de datos.En espera de habilitación. Se realizó parte del código que instancia la misma. 
