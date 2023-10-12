@@ -39,7 +39,8 @@ A lo largo de este proyecto, hemos empleado diversas librerias de Python para re
 <p align="center">
 <img src="https://i.ibb.co/kgktYHG/Screenshot-11.jpg">
 </p>
-3- **Definir tipo de problema y objetivo:** 
+
+3- **Definir tipo de problema y objetivo:**
 El propósito del proyecto de Social Listening es implementar una estrategia de escucha activa en las redes sociales para comprender las percepciones, opiniones y sentimientos de clientes y la comunidad en línea..
 
 <p align="center">
