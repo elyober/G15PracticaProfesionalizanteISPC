@@ -1,5 +1,4 @@
 # Se utiliza la libreria tweepy. Pip install tweey
-
 import tweepy
 
 consumer_key = 'VYZUlMi43ZvZJ8kK45S9I1izB'
