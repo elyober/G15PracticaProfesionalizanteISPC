@@ -9,13 +9,10 @@
 - Eliana Karina Steinbrecher
 - Juan Alcaraz
 - Roberto Schiaffino
-- Hellmutt Popp
 - Sergio Tamietto
 - Alan Lovera
-- CHACON, Claudio
-- CONTRERAS, Carla
-- CORDOBA, Marcelo
-- CUESTAS, Natalia
+- Carla Contreras
+- Natalia Cuestas
 
 ### Librerias Utilizadas :books:
 
