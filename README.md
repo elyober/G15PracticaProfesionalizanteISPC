@@ -64,13 +64,29 @@ El propósito del proyecto de Social Listening es implementar una estrategia de 
 
 ***Conclusion: Debido a la demora en la obtención de las credenciales de autorización adicional para acceder a las API de diferentes redes sociales, se tomó la decisión de utilizar el archivo "Meta" como fuente principal de datos. Esta elección se basó en consideraciones de tiempo y recursos disponibles.***
 
-5- **Carga de datos:** archivo resultante de la extraccion de datos de Meta
+5- **Carga de datos:**
+
+Este modelo se entrenará utilizando el conjunto de datos data_sentimientos.csv, el cual es una adaptación más reducida del conjunto de datos propuesto por Amazon Home_and_Kitchen_5.json. Este último contiene alrededor de 7 millones de reseñas que los usuarios de Amazon han realizado sobre productos de cocina.
+El archivo destinado a aplicar el modelo entrenado es un conjunto de datos que presenta valoraciones sobre una marca de utensilios de cocina.
 
 6- **Fase de análisis exploratorio de datos**
 
+Una vez que se ha cargado el conjunto de datos, se procede a realizar un análisis para determinar cómo están representadas las diferentes etiquetas de sentimiento. Esto se logra agrupando y contabilizando la cantidad de cada etiqueta de sentimiento presente en el conjunto de datos. La idea es comprender la distribución y frecuencia de cada etiqueta, lo que permitirá visualizar si hay una representación desigual entre ellas.
+
 7- **Análisis sobre los datos**
 
+Tras esta agrupación, se examinan los resultados para evaluar la presencia de cada etiqueta en los datos. En el análisis particular proporcionado, se encontró que la etiqueta "Excelente" está considerablemente sobrerrepresentada en comparación con las otras etiquetas de sentimiento.
+
+Este desequilibrio en la representación de las etiquetas puede influir en la capacidad del modelo para aprender de manera equitativa y precisa. Por ende, se decide igualar la cantidad de muestras para cada etiqueta de sentimiento seleccionando un número específico de muestras aleatorias de cada una. Este enfoque tiene como objetivo equilibrar la distribución de las etiquetas en el conjunto de datos, lo que podría mejorar la capacidad del modelo para generalizar y predecir con mayor precisión en todas las categorías de sentimiento.
+
 8- **Tratamiento de los datos anómalos**
+**Cambio de tipo de datos:** Las columnas "reviewText" y "sentimiento_marca" se convierten en cadenas (strings) para asegurar su compatibilidad y uniformidad.
+
+**Redistribución de muestras:** Debido a la considerable disparidad en la cantidad de etiquetas "Excelente" en comparación con las demás, se realiza un muestreo aleatorio para tomar un número específico de instancias de cada etiqueta. En este caso, se selecciona un total de 90,000 instancias para cada etiqueta "Excelente", "Negativa", "Pesima" y "Positiva".
+
+**Creación de un nuevo conjunto de datos equilibrado:** Las muestras seleccionadas aleatoriamente se combinan en un nuevo conjunto de datos llamado "combinado_df", donde cada etiqueta de sentimiento está igualmente representada. Este nuevo conjunto de datos está completamente aleatorizado para garantizar que no exista un sesgo en el orden de las instancias.
+
+**Limpieza de HTML en las reseñas:** Se aplica una función que utiliza BeautifulSoup (biblioteca de Python) para limpiar posibles códigos HTML presentes en las reseñas, asegurando que solo se conserve el texto relevante y se elimine el marcado HTML.
 
 9- **Inspección gráfica de los estadísticos**
 
