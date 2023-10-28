@@ -18,13 +18,23 @@
 
 A lo largo de este proyecto, hemos empleado diversas librerias de Python para realizar análisis de datos, entrenar modelos y trabajar con datos. Algunas de las bibliotecas clave incluyen:
 
-[scikit-learn](https://scikit-learn.org/stable/): Utilizada para el procesamiento de datos y la creación de modelos de aprendizaje automático.
+[Pandas](https://pandas.pydata.org/): Utilizada para la manipulación y análisis de datos tabulares.
 
-[pandas](https://pandas.pydata.org/): Utilizada para la manipulación y análisis de datos tabulares.
+[Numpy](https://numpy.org/): Utilizada para realizar operaciones matriciales y numéricas.
 
-[numpy](https://numpy.org/): Utilizada para realizar operaciones matriciales y numéricas.
+[Tweepy](https://www.tweepy.com/): Utilizada para interactuar con la API de Twitter y obtener datos relevantes.
 
-[tweepy](https://www.tweepy.com/): Utilizada para interactuar con la API de Twitter y obtener datos relevantes.
+[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/): Utilizada para limpiar y procesar texto HTML. 
+
+[Scikit-Learn](https://scikit-learn.org/stable/): Utilizada para el procesamiento de datos y la creación de modelos de aprendizaje automático.
+
+[Nltk](https://www.nltk.org/): Utilizada para el procesamiento de lenguaje natural, que incluye tokenización, lematización y otras tareas relacionadas con el texto.
+
+[Joblib](https://joblib.readthedocs.io/en/latest/): Empleado para guardar y cargar modelos entrenados.
+
+[MatplotLib](https://matplotlib.org/): Utilizada para la visualización de datos, como generar gráficos de WordCloud.
+
+[Seaborn](https://seaborn.pydata.org/): Otra biblioteca para la visualización de datos, que proporciona gráficos más avanzados y atractivos que los ofrecidos por Matplotlib.
 
 [TikTokApi](https://developers.tiktok.com/): Las API de contenido comercial permitirán al público y a los investigadores realizar búsquedas personalizadas basadas en nombres de anunciantes o palabras clave en anuncios y otros datos de contenido comercial almacenados en la biblioteca de contenido comercial.
 
