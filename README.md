@@ -318,3 +318,10 @@ A pesar de estos desafíos, se lograron los objetivos del análisis y se proporc
 
 ***Estas mejoras y consideraciones futuras pueden potenciar la capacidad del algoritmo para analizar sentimientos con mayor precisión y profundidad, proporcionando información valiosa para la marca 'H'.***
 
+**REPORTE BI**
+
+[ACCESO](https://app.powerbi.com/view?r=eyJrIjoiN2Y5OTkxZDgtZjgzYy00NDVkLWEzOTktNzgzMDljZmE0MzkwIiwidCI6ImMzZjAwYjZhLWM4YzgtNDM2OC04OTc1LWJlZTIzZjIyZjZlNiJ9)
+
+<p align="center">
+<img src="IMG\BI.jpg">
+</p>
