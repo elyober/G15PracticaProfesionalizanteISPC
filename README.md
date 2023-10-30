@@ -118,43 +118,43 @@ La Regresión Logística, utilizada en este análisis de Social Media Listening,
 10- **PREPARACION Y ENTRENAMIENTO DEL MODELO**
 
 **División del conjunto de datos:**
-**Propósito:** Dividir los datos en conjuntos de entrenamiento y prueba.
-**Uso de la función train_test_split():** Esta función de la biblioteca sklearn se utiliza para dividir el conjunto de datos en dos partes: una para entrenar el modelo y otra para probar su desempeño.
-**Razón:** Al entrenar el modelo con un conjunto de datos y probarlo con otro independiente, podemos evaluar su rendimiento en datos no vistos y verificar su capacidad para generalizar.
+
+- **Propósito:** Dividir los datos en conjuntos de entrenamiento y prueba.
+- **Uso de la función train_test_split():** Esta función de la biblioteca sklearn se utiliza para dividir el conjunto de datos en dos partes: una para entrenar el modelo y otra para probar su desempeño.
+- **Razón:** Al entrenar el modelo con un conjunto de datos y probarlo con otro independiente, podemos evaluar su rendimiento en datos no vistos y verificar su capacidad para generalizar.
 
 **Configuración de Herramientas de Procesamiento de Lenguaje Natural (NLP):**
 
-**Propósito:** Preparar el texto para su procesamiento.
-**Uso de nltk (Natural Language Toolkit) y funciones de preprocesamiento:**
-**Instalación de nltk: Permite acceder a herramientas para el procesamiento de texto.**
-Descarga de recursos como tokenizadores y palabras vacías: Los tokenizadores dividen el texto en tokens (palabras o frases), y las palabras vacías son palabras comunes que generalmente no contribuyen al significado (como "y", "el", "un", etc.).
-**Funciones para preprocesamiento de texto:** Incluyen tokenización, eliminación de palabras vacías, lematización y uso de un tokenizador porter para devolver las palabras a su forma raíz.
-**Razón:** Estas operaciones de preprocesamiento son fundamentales para normalizar el texto y prepararlo para su posterior análisis. Eliminan el ruido y simplifican el texto para que el modelo pueda interpretarlo mejor.
+- **Propósito:** Preparar el texto para su procesamiento.
+- **Uso de nltk (Natural Language Toolkit) y funciones de preprocesamiento:**
+- **Instalación de nltk: Permite acceder a herramientas para el procesamiento de texto.** Descarga de recursos como tokenizadores y palabras vacías: Los tokenizadores dividen el texto en tokens (palabras o frases), y las palabras vacías son palabras comunes que generalmente no contribuyen al significado (como "y", "el", "un", etc.).
+- **Funciones para preprocesamiento de texto:** Incluyen tokenización, eliminación de palabras vacías, lematización y uso de un tokenizador porter para devolver las palabras a su forma raíz.
+- **Razón:** Estas operaciones de preprocesamiento son fundamentales para normalizar el texto y prepararlo para su posterior análisis. Eliminan el ruido y simplifican el texto para que el modelo pueda interpretarlo mejor.
 
 **Vectorización de texto:**
 
-**Propósito:** Convertir el texto en características numéricas para su procesamiento en modelos de aprendizaje automático.
-**Uso de TfidfVectorizer:** Transforma el texto en una representación numérica utilizando la frecuencia de términos (TF) e inversa frecuencia del documento (IDF).
-**Razón:** Los modelos de aprendizaje automático requieren datos numéricos para su funcionamiento. La vectorización de texto es crucial para representar las palabras y oraciones en un formato que los modelos puedan comprender.
+- **Propósito:** Convertir el texto en características numéricas para su procesamiento en modelos de aprendizaje automático.
+- **Uso de TfidfVectorizer:** Transforma el texto en una representación numérica utilizando la frecuencia de términos (TF) e inversa frecuencia del documento (IDF).
+- **Razón:** Los modelos de aprendizaje automático requieren datos numéricos para su funcionamiento. La vectorización de texto es crucial para representar las palabras y oraciones en un formato que los modelos puedan comprender.
 
 **Ajuste de un Modelo:**
 
-**Propósito:** Entrenar un modelo para clasificar las reseñas de productos en diferentes categorías de sentimientos.
-**Uso de Logistic Regression y GridSearchCV:**
+- **Propósito:** Entrenar un modelo para clasificar las reseñas de productos en diferentes categorías de sentimientos.
+- **Uso de Logistic Regression y GridSearchCV:**
 Logistic Regression es un modelo de clasificación lineal.
 GridSearchCV busca los mejores hiperparámetros para el modelo, como el valor de regularización.
-**Razón:** Se utiliza para encontrar el modelo que mejor se ajuste a los datos y optimice la capacidad del modelo para predecir los sentimientos de las reseñas de productos.
+- **Razón:** Se utiliza para encontrar el modelo que mejor se ajuste a los datos y optimice la capacidad del modelo para predecir los sentimientos de las reseñas de productos.
 
 **Resultados y Evaluación del Modelo:**
 
-**Propósito:** Comprender el rendimiento del modelo entrenado.
+- **Propósito:** Comprender el rendimiento del modelo entrenado.
 Presentación de los mejores parámetros y métricas de precisión: Se muestran los hiperparámetros óptimos y métricas de evaluación como precisión, recall y F1-score.
-**Razón:** Evaluar la eficacia del modelo y comprender su capacidad para predecir correctamente los sentimientos de las reseñas.
+- **Razón:** Evaluar la eficacia del modelo y comprender su capacidad para predecir correctamente los sentimientos de las reseñas.
 
 **Prueba con Ejemplos de Oraciones en Inglés:**
 
-**Propósito:** Verificar la capacidad del modelo para clasificar correctamente nuevas entradas de texto.
-**Razón:** Evaluar cómo el modelo clasifica y responde a ejemplos de oraciones en inglés no utilizadas durante el entrenamiento, lo que muestra su capacidad para generalizar a datos no vistos.
+- **Propósito:** Verificar la capacidad del modelo para clasificar correctamente nuevas entradas de texto.
+- **Razón:** Evaluar cómo el modelo clasifica y responde a ejemplos de oraciones en inglés no utilizadas durante el entrenamiento, lo que muestra su capacidad para generalizar a datos no vistos.
 
 **Almacenamiento del Mejor Modelo Entrenado**
 
@@ -195,7 +195,7 @@ El análisis se enfocó en comprender la percepción de los usuarios en relació
 
 **Análisis Cuantitativo de Sentimientos:**
 - A través de gráficos, se evidenció que más del 51% de los Tweets evaluados sobre la marca H se catalogan como "Excelentes".
-- 
+
 **Geolocalización y Análisis Demográfico**
   
 **Regionalización de Tweets:**
