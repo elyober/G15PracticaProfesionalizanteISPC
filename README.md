@@ -255,7 +255,7 @@ A lo largo del análisis de sentimientos sobre la marca 'H' en los posteos, se e
 - **Limpieza de Datos:** El proceso de limpieza de datos involucró la eliminación de registros duplicados, valores nulos y caracteres especiales, lo que a menudo requería tiempo y esfuerzo para garantizar la calidad de los datos.
 - **Variabilidad de Opiniones:** La variedad de opiniones expresadas en los posteos dificultó la tarea de clasificar los sentimientos de manera precisa, ya que algunas publicaciones eran ambiguas o sarcásticas.
 - **Desbalance en los Datos:** La cantidad de posteos con opiniones positivas era significativamente mayor que los negativos o neutrales, lo que llevó a un desbalance en los datos y requirió considerar estrategias para abordar este problema.
-- **amaño del Conjunto de Datos:** La cantidad de posteos recopilados podría no ser representativa de la totalidad de la conversación en línea sobre la marca 'H', lo que limita la generalización de los resultados.
+- **Tamaño del Conjunto de Datos:** La cantidad de posteos recopilados podría no ser representativa de la totalidad de la conversación en línea sobre la marca 'H', lo que limita la generalización de los resultados.
 - **Interpretación de Temas:** La identificación de temas en los posteos requirió técnicas de aprendizaje no supervisado, lo que implicó cierta subjetividad en la interpretación de los resultados.
 
 A pesar de estos desafíos, se lograron los objetivos del análisis y se proporcionaron conclusiones significativas que pueden beneficiar a la marca 'H' en términos de comprender la percepción del público y guiar estrategias futuras.
