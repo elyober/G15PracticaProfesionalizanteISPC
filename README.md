@@ -51,7 +51,7 @@ A lo largo de este proyecto, hemos empleado diversas librerias de Python para re
 El propósito del proyecto de Social Listening es implementar una estrategia de escucha activa en las redes sociales para comprender las percepciones, opiniones y sentimientos de clientes y la comunidad en línea..
 
 <p align="center">
-  <img src="https://i.ibb.co/tKt32RT/BRIEF-SUMMARY-GERENCIA-1.png">
+  <img src="IMG\BRIEF SUMMARY GERENCIA (1).png">
 </p>
 
 4- **Analisis de factibilidad legal y factibilidad técnica en RRSS:**
@@ -195,10 +195,18 @@ Este enfoque nos brinda la capacidad de aplicar directamente el modelo optimizad
 
 El análisis se enfocó en comprender la percepción de los usuarios en relación a la marca H, examinando una colección de Tweets de alcance nacional. Los resultados, detallados a continuación, revelan aspectos clave sobre los sentimientos expresados en esta plataforma.
 
+<p align="center">
+<img src="IMG\GRAF2.jpg">
+</p>
+
 **Distribución de Sentimientos**
 
 **Análisis Cuantitativo de Sentimientos:**
 - A través de gráficos, se evidenció que más del 51% de los Tweets evaluados sobre la marca H se catalogan como "Excelentes".
+
+<p align="center">
+<img src="IMG\GRAF3.jpg">
+</p>
 
 **Geolocalización y Análisis Demográfico**
   
@@ -206,9 +214,25 @@ El análisis se enfocó en comprender la percepción de los usuarios en relació
 
 - Se llevó a cabo un análisis geoespacial para determinar la distribución de los Tweets por provincias, con el fin de identificar regiones en las que la marca es más mencionada.
 
+<p align="center">
+<img src="IMG\GRAF4.jpg">
+</p>
+
+<p align="center">
+<img src="IMG\GRAF5.jpg">
+</p>
+
 **Perfil de Usuarios por Edad:**
 
 - Se priorizó la evaluación de la participación de usuarios de 31 años, detectando una representación significativa en la emisión de Tweets relacionados con la marca H. Este análisis desglosó los sentimientos asociados con esta cohorte, destacando la recepción positiva de la marca entre estos usuarios.
+
+<p align="center">
+<img src="IMG\GRAF6.jpg">
+</p>
+
+<p align="center">
+<img src="IMG\GRAF7.jpg">
+</p>
 
 **Análisis Temático**
 
@@ -216,13 +240,29 @@ El análisis se enfocó en comprender la percepción de los usuarios en relació
 
 - A través de la técnica de LatentDirichletAllocation, se extrajeron tópicos predominantes de los Tweets catalogados como "Excelentes". Los resultados se tradujeron en gráficos de nube de palabras, visualizando los temas más recurrentes.
 
+<p align="center">
+<img src="IMG\GRAF8.jpg">
+</p>
+
 **Temas en Tweets Negativos:**
 
 - De manera similar, se examinaron y presentaron los tópicos sobresalientes extraídos de los Tweets con calificaciones negativas, generando representaciones visuales mediante gráficos de nube de palabras.
 
+<p align="center">
+<img src="IMG\GRAF9.jpg">
+</p>
+
 **Análisis de Temas en Tweets Positivos y Pesimos:**
 
 - Se procedió a analizar los Tweets considerados "Positivos" y "Pesimos", identificando y presentando los temas predominantes a través de gráficos de nube de palabras.
+
+<p align="center">
+<img src="IMG\GRAF10.jpg">
+</p>
+
+<p align="center">
+<img src="IMG\GRAF11.jpg">
+</p>
 
 13- **Informe sobre el Costo Computacional de la Ejecución:**
 
