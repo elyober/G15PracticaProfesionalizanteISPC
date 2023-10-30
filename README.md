@@ -79,6 +79,10 @@ Tras esta agrupación, se examinan los resultados para evaluar la presencia de c
 
 Este desequilibrio en la representación de las etiquetas puede influir en la capacidad del modelo para aprender de manera equitativa y precisa. Por ende, se decide igualar la cantidad de muestras para cada etiqueta de sentimiento seleccionando un número específico de muestras aleatorias de cada una. Este enfoque tiene como objetivo equilibrar la distribución de las etiquetas en el conjunto de datos, lo que podría mejorar la capacidad del modelo para generalizar y predecir con mayor precisión en todas las categorías de sentimiento.
 
+<p align="center">
+<img src="IMG\GRAF1.jpg">
+</p>
+
 8- **Tratamiento de los datos anómalos**
 
 **Cambio de tipo de datos:** Las columnas "reviewText" y "sentimiento_marca" se convierten en cadenas (strings) para asegurar su compatibilidad y uniformidad.
