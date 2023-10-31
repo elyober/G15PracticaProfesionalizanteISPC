@@ -62,7 +62,7 @@ El propósito del proyecto de Social Listening es implementar una estrategia de 
 - **Twitter:** Actualmente, estamos experimentando restricciones en las funcionalidades proporcionadas por la API gratuita de Twitter. Hemos tomado la decisión de desestimar el uso de la API debido a las limitaciones de funcionalidades en su versión gratuita
 - **DataSet Amazon:** Se utilizó un conjunto de datos de prueba de Amazon que contiene reseñas de productos relacionados con cocina y hogar, el cual consta de casi 7 millones de registros. Estos registros se etiquetaron con distintos sentimientos, incluyendo "pésimo," "negativo," "neutral," "positivo" y "excelente." Inicialmente, se intentó traducir las reseñas al español para facilitar el proceso de predicción. Sin embargo, se encontraron limitaciones técnicas que dificultaron esta tarea y estuvieron fuera de nuestro control para resolver en el tiempo requerido.
 
-***Conclusion: Debido a la demora en la obtención de las credenciales de autorización adicional para acceder a las API de diferentes redes sociales, se tomó la decisión de utilizar el archivo "Meta" como fuente principal de datos. Esta elección se basó en consideraciones de tiempo y recursos disponibles.***
+***Conclusion: Inicialmente se consideró utilizar "Meta" como fuente de datos debido a demoras en la obtención de credenciales de acceso a otras redes sociales, pero finalmente no fue posible obtener dicho acceso. Por lo tanto, se ha decidido priorizar el uso de Amazon como fuente de datos para evitar demoras en las autorizaciones. ***
 
 5- **Carga de datos:**
 
